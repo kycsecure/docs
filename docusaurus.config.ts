@@ -1,11 +1,11 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Ivis',
+  title: 'KYCsecure',
   tagline: 'A KYC tool for developers',
   favicon: 'img/favicon.ico',
 
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.kycsecure.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'kycsecure', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -75,9 +75,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Ivis',
+      title: 'KYCsecure',
       logo: {
-        alt: 'Ivis Logo',
+        alt: 'KYCsecure Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -87,8 +87,8 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/api', label: 'API', position: 'left'},
-        {to: '/blog', label: 'Change Log', position: 'left'},
+        { to: '/api', label: 'API', position: 'left' },
+        { to: '/blog', label: 'Change Log', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
